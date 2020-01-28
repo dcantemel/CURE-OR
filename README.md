@@ -15,15 +15,14 @@
 |  **Released** | September 2018  | 
 |  **Creator** | Dogancan Temel, Jinsol Lee, Ghassan AlRegib - [OLIVES Lab, Georgia Institute of Technology](https://ghassanalregib.com/)| 
 |  **Citation** | D. Temel*, J. Lee* and G. AlRegib, “Object Recognition under Multifarious Conditions: A Reliability Analysis and a Feature Similarity-Based Performance Estimation ,” the IEEE International Conference on Image Processing, Taipei, Taiwan, September 2019, https://doi.org/10.1109/ICIP.2019.8803317  | 
-|  **HasPart** |   | 
-|  **Keywords** |   | 
-|  **License** |   | 
-|  **Download Page** |   | 
-|  **Download Instructions** |   | 
-|  **File Format** |   | 
+|  **Keywords** |object dataset, controlled experiment with recognition platforms, performance estimation, deep learning, feature similarity   | 
+|  **License** | "license" : "https://opensource.org/licenses/MIT" | 
+|  **Download Page** | [CURE-OR Dataset](https://goo.gl/forms/YVM3N6RrywNPuEjJ3)    | 
+|  **Download Instructions** |Once you fill out the google form, download the dataset from the provided link.| 
+|  **File Format** | Ther are 18 compressed 'tar' files for each challenge category. In each tar files, images are provided in 'jpg' format.     | 
 
 
-
+### Project Description
 The goal of this project is to analyze the robustness of off-the-shelf recognition applications under multifarious challenging conditions, investigate the relationship between the recognition performance and image quality, and estimate the performance based on hand-crafted features as well as data-driven features. To achieve this goal, we introduced a large-scale, controlled, and multi-platform object recognition dataset CURE-OR, which stands for Challenging Unreal and Real Environments for Object Recognition.  This repository summrizes the characterisitcs of our dataset and provides codes to reproduce analysis results in our papers. For more information about CURE-OR, please refer to our papers.
 
 ### Papers
