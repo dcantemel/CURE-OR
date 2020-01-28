@@ -6,6 +6,24 @@
 <p align="center"><img src="./figs/cure_or_lr.gif", width="500"></p>
 
 
+
+
+| Name | CURE-OR Dataset: Challenging Unreal and Real Environments for Object Recognition Dataset |  
+|:---|:---|
+| **Description** | CURE-OR is a large-scale, controlled, and multi-platform object recognition dataset. In CURE-OR, there are 1,000,000 images of 100 objects with varying size, color, and texture that are positioned in five different orientations and captured using five devices including a webcam, a DSLR, and three smartphone cameras in real-world (real) and studio (unreal) environments. The controlled challenging conditions include underexposure, overexposure, blur, contrast, dirty lens, image noise, resizing, and loss of color information.  |
+| **Publications** | In [ICMLA](https://arxiv.org/pdf/1810.08293.pdf) and [ICIP](https://arxiv.org/pdf/1902.06585.pdf) papers, we utilize CURE-OR dataset to test recognition APIs-Amazon Rekognition and Microsoft Azure Computer Vision- and show that their performance significantly degrades under challenging conditions. Moreover, we investigate the relationship between object recognition and image quality and show that objective quality algorithms can estimate recognition performance under certain photometric challenging conditions. 
+|  **Released** | September 2018  | 
+|  **Creator** | Dogancan Temel, Jinsol Lee, Ghassan AlRegib - [OLIVES Lab, Georgia Institute of Technology](https://ghassanalregib.com/)| 
+|  **Citation** | D. Temel*, J. Lee* and G. AlRegib, “Object Recognition under Multifarious Conditions: A Reliability Analysis and a Feature Similarity-Based Performance Estimation ,” the IEEE International Conference on Image Processing, Taipei, Taiwan, September 2019, https://doi.org/10.1109/ICIP.2019.8803317  | 
+|  **HasPart** |   | 
+|  **Keywords** |   | 
+|  **License** |   | 
+|  **Download Page** |   | 
+|  **Download Instructions** |   | 
+|  **File Format** |   | 
+
+
+
 The goal of this project is to analyze the robustness of off-the-shelf recognition applications under multifarious challenging conditions, investigate the relationship between the recognition performance and image quality, and estimate the performance based on hand-crafted features as well as data-driven features. To achieve this goal, we introduced a large-scale, controlled, and multi-platform object recognition dataset CURE-OR, which stands for Challenging Unreal and Real Environments for Object Recognition.  This repository summrizes the characterisitcs of our dataset and provides codes to reproduce analysis results in our papers. For more information about CURE-OR, please refer to our papers.
 
 ### Papers
